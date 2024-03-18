@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock</title>
+
+    <!-- Pathway Extreme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Native CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="home-1">
+        <div class="content-1">
+            <div id="header">
+                <div class="nav-left">
+                    <a href="#">
+                        <h2>Stock</h2>
+                    </a>
+                </div>
+                <div class="nav-left">
+                    <a href="#info">О нас</a>
+                    <a href="#services">Сервисы</a>
+                    <a href="#footer">Присоединиться</a>
+                </div>
+            </div>
+            <div id="info">
+                <div class="info-left wow fadeIn">
+                    <h1>Погрузитесь в мир IT вместе с нами!</h1><br>
+                    <h4> <span id="stock-name">Stock Academy</span>  предоставляет обучение для 10-11 классов и программированию в различных отраслях.</h4>
+                        <button type="button" id="showFormButton">Присоединиться</button>
+
+                    <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Форма регистрации </h2>
+                        <form id="registrationForm">
+                        <label for="name">Имя:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Введите ваше Имя Фамилию" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Введите ваш Email" required><br>
+                        <label for="phone">Телефон:</label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Введите ваш номер телефона" ><br>
+                        <label for="date">Дата :</label><br>
+                        <input type="date" id="date" name="date" required><br>
+                        <button type="submit">Отправить Форму</button>
+                        </form>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="info-right wow fadeIn">
+                    <img src="./assets/photo_2024-03-18_05-32-21-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-2">
+        <div class="content-2">
+            <div id="services">
+                <div class="services-top">
+                   <h2>Наши Сервисы</h2> 
+                </div>    
+                <div class="services-bot">
+                    <a href="#proffesions">
+                        <div class="service-block wow fadeIn">
+                            <img src="./assets/interface-control-svgrepo-com.svg" alt="">
+                            <h2>Системный Администратор</h2>
+                            <p>Специалист по управлению и обслуживание  компьютерных сетей и систем</p>
+                        </div>
+                    </a>
+                    <a href="#proffesions">
+                        <div class="service-block wow fadeIn">
+                            <img src="assets/availability-svgrepo-com.svg" alt="">
+                            <h2>Frontend Разработчик</h2>
+                            <p>Специалист по созданию интерактивных пользовательских интерфейсов для веб-приложений</p>
+                        </div>
+                    </a>
+                    <a href="#proffesions">
+                        <div class="service-block wow fadeIn">
+                            <img src="assets/host-record-svgrepo-com.svg" alt="">
+                            <h2>Backend Разработчик</h2>
+                            <p>Специалист по созданию и поддержке серверной части веб-приложений</p>
+                        </div>
+                    </a>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-3">
+        <div class="content-3">
+            <div class="portfolio">
+                <div class="top-portfolio wow fadeIn">
+                    <h1>Портфолио наших студентов</h1>
+                    <p>В портфолио <span id="stock-name">Stock Academy</span>  вы найдете работы, проекты и достижения студентов, связанные с программированием и информационными технологиями. Это включает программные проекты, разработку приложений, участие в хакатонах, соревнованиях по программированию, а также рефлексии на тему улучшения навыков и дальнейшего развития в IT-сфере.</p>
+                </div>
+                <div class="bot-portfolio wow fadeIn">
+                    <img src="./assets/portfolio.png" alt="">
+                    <img src="./assets/portfolio.png" alt="">
+                    <img src="./assets/portfolio.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-5">
+        <div class="content-5">
+            <div id="proffesions">
+                <div class="prof-top">
+                    <h2>Подробнее о направлениях</h2>
+                </div>
+                <div class="prof-bot">
+                    <div class="prof-box wow fadeIn">
+                        <h2>Системный Администратор</h2>
+                        <ul>
+                            <li>Установка, настройка и обновление операционных систем и серверного ПО</li>
+                            <li>Мониторинг работы системы и инфраструктуры</li>
+                            <li>Решение проблем с аппаратным и программным обеспечением</li>
+                            <li>Поддержка пользователей и решение их запросов</li>
+                            <li>Ведение документации и исследование новых технологий</li>
+                            <li>Управление виртуализацией ресурсов</li>
+                            <li>Ведение документации и исследование новых технологий</li>
+                        </ul>
+                    </div>
+                    <div class="prof-box wow fadeIn">
+                        <h2>Frontend<br> Разработчик</h2>
+                        <ul>
+                            <li>Разработка пользовательского интерфейса веб-приложений с использованием HTML, CSS и JavaScript</li>
+                            <li>Оптимизация интерфейса для различных устройств и браузеров с учетом адаптивного и отзывчивого дизайна</li>
+                            <li>Оптимизация производительности веб-приложений и улучшение пользовательского опыта</li>
+                            <li>Работа с графическими редакторами и инструментами для создания пользовательского интерфейса</li>
+                        </ul>
+                    </div>
+                    <div class="prof-box wow fadeIn">
+                        <h2>Backend<br> Разработчик</h2>
+                        <ul>
+                            <li>Разработка серверной логики и функциональности веб-приложений с использованием языков программирования, таких как Python, Java и др.</li>
+                            <li>Создание и поддержка баз данных, включая проектирование схемы, написание запросов SQL и оптимизацию производительности</li>
+                            <li>Разработка API (интерфейсов программирования приложений) для взаимодействия с фронтенд-частью и другими внешними системами</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="home-4">
+        <div class="content-4">
+            <div class="map">
+                <div class="map-top">
+                    <h1>Наше местоположение</h1>
+                </div>
+                <div class="map-bot">
+                    <div class="map-bot-left">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.816987548186!2d74.62747957595812!3d42.85559737115112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb65041bf6f57%3A0x7073e49841f3d4d1!2z0J_RgNC-0YTQtdGB0YHQuNC-0L3QsNC70YzQvdGL0Lkg0LvQuNGG0LXQuSA5OQ!5e0!3m2!1sru!2skg!4v1710723238757!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="map-bot-right wow fadeIn">
+                        <h1>Контакты</h1>
+                        <p>+1488 11 61 19 39</p>
+                        <h3>Местоположение</h3>
+                        <p>18 ул. Горького, Бишкек</p>
+                        <h3>Работает</h3>
+                        <p>С 8:00 до 18:00</p>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email адрес</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Оставить отзыв</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-6">
+        <div class="content-6">
+            <div id="footer">
+                <div class="foot-left">
+                    <a href="#info"><h1>Stock</h1></a>
+                </div>
+                <div class="foot-right">
+                    <a href="#info">О нас</a>
+                    <a href="#services">Сервисы</a>
+                    <a href="#">Присоединиться</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <!-- Native js -->
+    <script src="main.js"></script>
+
+
+    <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
